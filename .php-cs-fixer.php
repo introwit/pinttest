@@ -9,6 +9,7 @@ $config = new PhpCsFixer\Config();
 
 return $config
     ->setRules([
+        'method_chaining_indentation' => true,
         'array_syntax' => ['syntax' => 'short'],
         'combine_consecutive_unsets' => true,
         'multiline_whitespace_before_semicolons' => false,
