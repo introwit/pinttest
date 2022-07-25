@@ -1,0 +1,16 @@
+{
+    "preset": "laravel",
+    "exclude": [
+        ".github",
+        "app/Nova",
+        "bootstrap",
+        "config",
+        "database/migrations",
+        "nova",
+        "storage"
+    ],
+    "rules": {
+        "concat_space": ["spacing": "one"],
+        "method_chaining_indentation": true
+    }
+}
